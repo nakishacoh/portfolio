@@ -1,0 +1,57 @@
+
+
+
+
+
+
+/* Page Headers */
+
+/* .smallBio .headerTitle{
+  padding-bottom: 2em;
+} */
+
+/* Page Footer */
+/* .portLinks{ */
+  /* color: #008CBA; */
+/* } */
+
+.portLinks a{
+  text-decoration: none;
+  padding-right: 2em;
+}
+
+.portLinks a:hover{
+  color: #ffed42;
+}
+
+
+
+/* Bold Words */
+
+.bold{
+  font-weight: bold;
+}
+
+
+
+
+
+/* Spotify */
+
+.spotSketch{
+  margin-left: 8em;
+}
+
+.spotImages{
+  margin-left: 10em;
+
+}
+
+/* SLR */
+
+
+.slrSpace{
+  margin-top: 2em;
+}
+
+
