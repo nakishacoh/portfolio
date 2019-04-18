@@ -10,6 +10,12 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Animate CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <!-- UiKit Code -->
 <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
@@ -72,7 +78,7 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
     <ul class="uk-nav uk-nav-default">
       <li><a href="index.html" class="navDes"><h3>Work</h3></a></li>
       <li><a href="about.html" class="navDes"><h3>About</h3></a></li>
-      <li><a href="resume.html" class="navDes"><h3>Resume</h3></a></li>
+      <li><a href="resume.html" class="navDes"><h3 class="resume">Resume</h3></a></li>
     </ul>
   </div>
 </div>
@@ -85,7 +91,7 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
 </div>
 
   <!--Intro-->
-  <div class="uk-panel">
+  <div class="uk-panel tiHead">
     <img src="images/slrPage.jpg"  alt="" class="uk-align-center uk-align-right@m uk-margin-remove-adjacent" width="70%" >
 
   <div class="smallBio">
@@ -132,15 +138,15 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
           <ul>
             <li>Arduino
               <ul>
-                <li>1x: HC-SR04 Ultrasonic Sensor</li>
-                <li>1x: PIR motion Sensor</li>
-                <li>2x: LED strip</li>
-                <li>Cables</li>
+                <li>-1x: HC-SR04 Ultrasonic Sensor</li>
+                <li>-1x: PIR motion Sensor</li>
+                <li>-2x: LED strip</li>
+                <li>-Cables</li>
               </ul>
             </li>
             <li>Clock
               <ul>
-                <li>1x: NFC Sticker</li>
+                <li>-1x: NFC Sticker</li>
               </ul>
             </li>
             <li>Electrical Cord</li>
@@ -149,22 +155,22 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
         </li>Mirror Components
         <li>
           <ul>
-            <li>2x: Mirror Film</li>
-            <li>Wood for Mirror</li>
-            <li>Wooded Letters</li>
-            <li>Black Paint</li>
-            <li>Plexiglass</li>
+            <li>-2x: Mirror Film</li>
+            <li>-Wood for Mirror</li>
+            <li>-Wooded Letters</li>
+            <li>-Black Paint</li>
+            <li>-Plexiglass</li>
           </ul>
         </li>
       </ul>
 
-    <div class="">
+    <div class="tiHead">
       <img src="images/slrSketch1.png" alt="" width="33%">
       <img src="images/slrSketch2.png"  class="slrSpace" alt="" width="33%">
       <img src="images/slrSketch3.png" class="slrSpace" alt="" width="33%">
     </div>
 
-      <p>Problems</p>
+      <h4>Problems</h4>
       <ul>
         <li>We wanted to add a program board on top of the mirror to specify what SLR stands for, however, the average price is between fifty to two-hundred dollars</li>
         <li>The mini infinity mirror we wanted to use to input the NFC sticker is sold out and the company put the item on hold. They were not able to make any special arrangements to have the item shipped to us</li>
@@ -173,11 +179,14 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
 
       <!--Result-->
       <h3>Result</h3>
+      <div class="slrVid">
+        <iframe src="https://player.vimeo.com/video/330472474" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
 
-      <video  width="640" height="360" preload controls>
-        <source src="slrVid.mov" />
-      </video>
-      <p>Breakthroughs</p>
+      <div class="slrVidmob">
+          <iframe src="https://player.vimeo.com/video/330472474" width="340" height="160" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+      <h4>Breakthroughs</h4>
       <p>Even though we pushed to complete our project timeline closer to the presentation date, we were able to successfully have our mirror frame, design, and base of program functionalities put together. Thanks to the help of classmates, relatives, and instructors, we were able to have a project ready to present.</p>
       <!-- Reflection -->
       <h3>Reflection</h3>
@@ -194,6 +203,12 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
 
 </body>
 <footer class="uk-text-center">
+    <div class="social">
+        <ul class="icons animated fadeIn">
+          <a href="http://www.linkedin.com/in/nncohen" class="fa fa-linkedin"></a>
+          <a href="http://www.twitter.com/nakishacoh" class="fa fa-twitter"></a>
+        </ul>
+      </div>
   © 2019 Nakisha Cohen
 </footer>
 </html>

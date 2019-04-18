@@ -25,6 +25,38 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.fa {
+  padding: 15px;
+  font-size: 5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.social .icons .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  font-size: 1em;
+}
+
+.social .icons .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  font-size: 1em;
+}
+
+.social .icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* width: 100%; */
+}
+
+.social .icons a {
+  margin-right: 1em;
+}
+
 @media only screen and (min-width: 280px) and (max-width: 600px) {
   body {
     border: 1em solid #ffed42;
@@ -43,6 +75,9 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .navDes .resume {
+    display: none;
   }
   .imageAlign {
     width: 100%;
@@ -70,7 +105,7 @@ p {
     right: 0;
     text-align: center;
     /* top: 40%; Adjust this value to move the positioned div up and down */
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     width: 100%;
     /* Set the width of the positioned div */
@@ -92,20 +127,22 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 3em;
     margin-bottom: 3em;
   }
   .box2 .text2 {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    padding-left: 60px;
+    left: 0;
     right: 0;
     text-align: center;
     /* top: 40%; Adjust this value to move the positioned div up and down */
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     width: 100%;
     /* Set the width of the positioned div */
+    height: 100%;
     visibility: hidden;
     -webkit-transition: opacity .2s ease, visibility .2s ease;
     transition: opacity .2s ease, visibility .2s ease;
@@ -124,15 +161,17 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 3em;
+    margin-top: 3em;
   }
   .box3 .text3 {
     position: absolute;
     z-index: 999;
-    margin-top: 4em;
+    margin: 0 auto;
+    left: 0;
     right: 0;
     text-align: center;
     /* top: 40%; Adjust this value to move the positioned div up and down */
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     width: 100%;
     /* Set the width of the positioned div */
@@ -156,6 +195,10 @@ p {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+  .resumeMob a {
+    text-decoration: none !important;
+    color: white !important;
+  }
   .tiHead img {
     width: 100%;
   }
@@ -167,6 +210,25 @@ p {
   }
   .lfSlider {
     width: 100%;
+  }
+  .spotSketch {
+    display: none;
+  }
+  .spotSketchmob {
+    width: 70%;
+    margin-left: 3em;
+  }
+  .spotSketchmob .spotQues {
+    margin-bottom: 1.5em;
+  }
+  .spotImages {
+    display: none;
+  }
+  .spotImagesmob {
+    margin-left: 3em;
+  }
+  .slrVid {
+    display: none;
   }
 }
 
@@ -297,6 +359,9 @@ p {
   .aboutMore {
     padding-top: 5em;
   }
+  .resumeMob {
+    display: none;
+  }
   #thanks {
     font-weight: bolder;
     margin-top: 1em;
@@ -312,6 +377,43 @@ p {
   }
   .lfSlider {
     display: none;
+  }
+  /* Spotify */
+  .spotSketch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spotSketch img {
+    margin-right: 3em;
+  }
+  .spotSketch1 {
+    margin-left: -5em;
+  }
+  .spotImages img {
+    padding-left: 10em;
+  }
+  .spotImagesmob {
+    display: none;
+  }
+  .spotSketchmob {
+    display: none;
+  }
+  .slrVidmob {
+    display: none;
+  }
+  .slrVid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

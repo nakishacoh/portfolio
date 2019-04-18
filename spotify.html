@@ -10,6 +10,12 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Animate CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <!-- UiKit Code -->
 <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
@@ -72,7 +78,7 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
     <ul class="uk-nav uk-nav-default">
       <li><a href="index.html" class="navDes"><h3>Work</h3></a></li>
       <li><a href="about.html" class="navDes"><h3>About</h3></a></li>
-      <li><a href="resume.html" class="navDes"><h3>Resume</h3></a></li>
+      <li><a href="resume.html" class="navDes"><h3 class="resume">Resume</h3></a></li>
     </ul>
   </div>
 </div>
@@ -85,7 +91,7 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
 </div>
 
   <!--Intro-->
-  <div class="uk-panel">
+  <div class="uk-panel tiHead">
     <img src="images/collin.png"  alt="" class="uk-align-center uk-align-right@m uk-margin-remove-adjacent" width="70%">
 
   <div class="smallBio">
@@ -105,9 +111,6 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
       <p>Illustrator, Photoshop, XD</p>
     </div>
   </div>
-
-
-
   </div>
 
   <hr>
@@ -132,15 +135,23 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
     </div>
 
     <div class="spotSketch">
-      <img src="images/spotifyQues2.jpg" alt="" width="400px" height="10px">
-      <img src="images/spotifyQues.jpg" alt="" width="400px" height="10px">
-
+        <img src="images/spotifyQues2.jpg" class="spotSketch1" alt="" width="50%" >
+        <img src="images/spotifyQues.jpg" alt="" width="50%" >
     </div>
 
-<h3>Design</h3>
+    <div class="spotSketchmob">
+      <img class="spotQues" src="images/spotifyQues2.jpg" alt="">
+      <img src="images/spotifyQues.jpg" alt="">
+    </div>
+
+
+<h3>Iterations</h3>
   <h4>1. Sketch</h4>
     <p>I then created a sketch of my mockup. My thought process first led me to draw out Collin's profile on my Android</p>
-    <img src="images/spotSketch.jpg" class="spotImages" width="70%" alt="">
+    <div class="spotImages">
+      <img src="images/spotSketch.jpg"  width="70%" alt="">
+    </div>
+    <img src="images/spotSketch.jpg" class="spotImagesmob" width="70%" alt="">
 
     <p>Problem</p>
       <ul>
@@ -151,19 +162,7 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
         <li>Shape of user photo is not circular</li>
         <li>Inconsistent theme of fonts</li>
       </ul>
-
-  <h4>2. Final Design</h4>
-    <p>With great critique and constant revision, a final version was complete with additional mockups</p>
-
-    <div class="spotSketch">
-      <img src="images/Artboard4.jpg" alt="">
-      <img src="images/Artboard5.jpg" alt="">
-      <img src="images/Artboard6.jpg" alt="">
-      <img src="images/Artboard7.jpg" alt="">
-      <img src="images/Artboard8.jpg" alt="">
-      <img src="images/Artboard9.jpg" alt="">
-    </div>
-
+    
       <p>Solution</p>
       <ul>
         <li>Creating multiple mockups to write out the points of each topic</li>
@@ -172,6 +171,61 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
         <li>Make the user photo circular</li>
         <li>Stick to two theme of fonts</li>
       </ul>
+
+  <h3>Design</h3>
+    <p>With great critique and constant revision, a final version was complete with additional mockups</p>
+
+    <div class="desMob">
+      <img src="images/Artboard4.jpg" alt="">
+      <img src="images/Artboard5.jpg" alt="">
+      <img src="images/Artboard6.jpg" alt="">
+      <img src="images/Artboard7.jpg" alt="">
+      <img src="images/Artboard8.jpg" alt="">
+      <img src="images/Artboard9.jpg" alt="">
+    </div>
+
+        <!-- Mobile-Designs -->
+        <div class="uk-position-relative uk-visible-toggle uk-light lfSlider" tabindex="-1" uk-slider>
+
+          <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
+              <li>
+                  <div class="uk-panel">
+                    <img src="images/Artboard4.jpg" alt="">
+                  </div>
+              </li>
+              <li>
+                  <div class="uk-panel">
+                      <img src="images/Artboard5.jpg" alt="">
+                  </div>
+              </li>
+              <li>
+                  <div class="uk-panel">
+                      <img src="images/Artboard6.jpg" alt="">
+                  </div>
+              </li>
+              <li>
+                  <div class="uk-panel">
+                      <img src="images/Artboard7.jpg" alt="">
+                  </div>
+              </li>
+              <li>
+                  <div class="uk-panel">
+                      <img src="images/Artboard8.jpg" alt="">
+                  </div>
+              </li>
+              <li>
+                  <div class="uk-panel">
+                      <img src="images/Artboard9.jpg" alt="">
+                  </div>
+              </li>
+          </ul>
+      
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+      
+      </div>
+
+
 
   <h3>Relfection</h3>
   <p>After revisiting my designs and getting valuable feedback, I gave further consideration to cleaning up my errors and observing the development of my improvements. The main problem I faced was being able to give proportionate space aligning the elements. Being one of my earlier projects, I had little knowledge of the design program and interaction methods. Creating this empathy map is revolutionary to my design skills and UI rules.</p>
@@ -187,6 +241,12 @@ at least 150px in height. Image must be less than 1MB in size. Ideal is 1,024 x 
 
 </body>
 <footer class="uk-text-center">
+    <div class="social">
+        <ul class="icons animated fadeIn">
+          <a href="http://www.linkedin.com/in/nncohen" class="fa fa-linkedin"></a>
+          <a href="http://www.twitter.com/nakishacoh" class="fa fa-twitter"></a>
+        </ul>
+      </div>
   © 2019 Nakisha Cohen
 </footer>
 </html>
